@@ -51,6 +51,16 @@
   Any function that is passed to another function as argument...
   Functions are first
 
+  ##### PROS:
+
+      - Simplicity
+      - Popularity
+
+  ##### CONS:
+
+      - Lack of readability: Code that uses callbacks is not linear... this is why sometimes it is not easy to understand the code executing...
+      - Callback hell... Several callbacks that depend on eachother...
+
 - TESTING CALLBACKS: Unit Tests...
 
 - PROMISES: Easily avoiding Callback
