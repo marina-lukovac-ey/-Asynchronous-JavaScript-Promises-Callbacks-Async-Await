@@ -8,3 +8,6 @@ function calculateSquare(number, callback) {
     callback(null, result); //no error inside
   }, 1000);
 }
+export { calculateSquare };
+//ES5 syntax:
+//module.exports = calculateSquare;
